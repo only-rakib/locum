@@ -85,7 +85,7 @@ nav.pullUp ul li a:hover:after
 {
     height: 100%;
 }
-img {
+img.navpic {
 	vertical-align: middle;
 	width: 250px;
 }

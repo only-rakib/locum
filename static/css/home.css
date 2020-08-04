@@ -2,6 +2,7 @@ body
 {
 	background: white;
 	font-family: 'IBM Plex Sans', sans-serif;
+	overflow-x: hidden;
 }
 u 
 {
@@ -14,15 +15,16 @@ a
 {
 	background: #FF5A47;
 	cursor: pointer;
+	color:transparent;
 }
 
 
-.row
+/*.row
 {
 	margin-left: -15px;
 	
 
-}
+}*/
 .row.margin
 {
 	
@@ -43,7 +45,7 @@ a
 }
 .col-sm-6.margin-left
 {
-	margin-left: 51.09%;
+	margin-left: 50.09%;
 }
 .col-sm-4.margin-left
 {
@@ -88,16 +90,13 @@ a
 	color:white;
 	
 }
-.box-apply.rightImplement
-{
 
-}
 .box-apply-leftImplement
 {
 	/*1st image overlap box with semi-red color */
 	background: #FF5A47;
     background-clip: border-box;
-	width: 100%;
+	width: 115%;
 	height: 80%;
 	padding-top: 0%;
 	margin-left: 6%;
@@ -129,28 +128,58 @@ a
 	font-size: 3.5vmax;
 	line-height: 1.5em;
 }
+.header2
+{
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.2vmax;
+	letter-spacing: 0em;
+	text-transform: none;
+	line-height: 1.2em;
+}
 .para
 {
+	font-family: 'IBM Plex Sans', sans-serif;
 	font-weight: 200;
 	font-style: normal;
 	font-size: 1.2vmax;
 	letter-spacing: .01em;
 	text-transform: none;
 	line-height: 1.6em;
+	color:white;
 }
-a.button
+a.buttonBlue
 {
 	border: 0px solid rgba(255,255,255,0);
 	background-color: #14acd2;
 	padding: 1.3% 5%;
 	border-radius: 5px;
 	color: white;
+	cursor:pointer;
 	
 }
-a.button:hover
+a.buttonBlue:hover
 {
 	text-decoration: none;
-	background-color: #4f2f60
+	background-color: #4f2f60;
+	color:white;
+}
+a.buttonPurple
+{
+	border: 0px solid rgba(255,255,255,0);
+	background-color: #512F60;
+	padding: 1.3% 5%;
+	border-radius: 5px;
+	color: white;
+	cursor:pointer;
+	
+}
+a.buttonPurple:hover
+{
+	text-decoration: none;
+	background-color: #FF5745;
+	color:white;
 }
 /*.row.background-img1 {
   background: url('../image/male_doctor_laughing_with_patient.jpg');
@@ -286,6 +315,10 @@ http://www.menucool.com/ui/slide-in-when-scrolling
 	text-decoration: underline;
 	text-decoration-color: #FF5A47
 }
+.col-sm-6.margin-left-employers
+{
+	margin-left: 50.09%;
+}
 /*===============================Resources=================================*/
 /*
 .slider {
@@ -312,7 +345,7 @@ http://www.menucool.com/ui/slide-in-when-scrolling
 	background:#143567;
 	color:white;
 	cursor: pointer;
-	padding: 1% 2%;
+	padding: 2% 3%;
 	width: 100%;
 }
 .expander:hover

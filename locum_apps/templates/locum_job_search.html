@@ -20,8 +20,10 @@
                     <div class="col">
                         <select id="inputState" class="form-control">
 									<option selected>All Locations</option>
-									<option>...</option>
-								</select>
+                                    {% for i in  data%}
+									<option value="{{i}}">{{i}}</option>
+                                    {% endfor %}
+						</select>
                     </div>
                     <div class="col" style="padding-left: 2%">
                         <input type="text" class="form-control" placeholder="Keywords">
@@ -55,23 +57,24 @@
             </div>
             <br>
             <div class="row">
-                Locums Choice seeks a Neurologist for coverage in Missouri. Candidates must be Board Certified in Neurology. 24 hour call cover, Friday afternoon – S... <a style="color:#FF5745;cursor: pointer; "> continue</a>
+                Locums Choice seeks a Neurologist for coverage in Missouri. Candidates must be Board Certified in Neurology. 24 hour call cover, Friday afternoon – S... <a style="color:#FF5745;cursor: pointer; "> continue › </a>
             </div>
         </div>
     </div>
     <div class="row" style="padding-bottom: 2%;padding-top: 2%;border-bottom: 1px dotted gray;border">
         <div class="col-sm-10 offset-sm-1">
             <div class="row">
-                Position Title:Hospitalist need in Georgia
+                Position Title: <a style="color:#FF5745;cursor: pointer; ">Hospitalist need in Georgia</a>
             </div>
             <div class="row">
-                State: Georgia
+                State: <strong>Georgia</strong>
             </div>
             <div class="row">
-                Posted On: July 28, 2020
+                Posted On: <strong>July 28, 2020</strong>
             </div>
+            <br>
             <div class="row">
-                Locums Choice seeks a Neurologist for coverage in Missouri. Candidates must be Board Certified in Neurology. 24 hour call cover, Friday afternoon – S... continue ›
+                Locums Choice seeks a Neurologist for coverage in Missouri. Candidates must be Board Certified in Neurology. 24 hour call cover, Friday afternoon – S... <a style="color:#FF5745;cursor: pointer; "> continue › </a>
             </div>
         </div>
     </div>
