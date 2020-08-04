@@ -1,0 +1,321 @@
+body
+{
+	background: white;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+u 
+{
+ 	color:#143567;
+ 	text-decoration: none;
+    border-bottom:solid 2px;
+    border-bottom-color: #FF5745;
+}​
+a
+{
+	background: #FF5A47;
+	cursor: pointer;
+}
+
+
+.row
+{
+	margin-left: -15px;
+	
+
+}
+.row.margin
+{
+	
+	padding-bottom: 6%;
+}
+.row.emptybox
+{
+	padding-bottom: 4%;
+	/*margin-left: -15px;*/
+	margin-right: 0px;
+	
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+   
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.col-sm-6.margin-left
+{
+	margin-left: 51.09%;
+}
+.col-sm-4.margin-left
+{
+	margin-left: -93%
+}
+.background-shadow
+{
+	/*There is a background between upper and middle image*/
+	background: #EEECE4;
+	
+	width: 100%;
+	height: 130vh;
+	position: absolute;
+	z-index: -10;
+	top: 97vh;
+	background-clip: border-box;
+}
+.lower-common-img
+{
+	padding-left: 4%;
+	width: 75%;
+	height:100%;
+}
+.img-fluid.change-height
+{
+	height: 100%;
+	width: 105%;
+	max-width: none;
+	top:2%;
+}
+
+.box-apply
+{
+	/*1st image overlap box with semi-red color */
+	background: #FF5A47;
+    background-clip: border-box;
+	width: 167%;
+	height: 70%;
+	margin-top: 24%;
+	margin-left: -67%;
+	padding: 18% 15% 18% 13%;
+	color:white;
+	
+}
+.box-apply.rightImplement
+{
+
+}
+.box-apply-leftImplement
+{
+	/*1st image overlap box with semi-red color */
+	background: #FF5A47;
+    background-clip: border-box;
+	width: 100%;
+	height: 80%;
+	padding-top: 0%;
+	margin-left: 6%;
+	padding: 18% 15% 18% 13%;
+	color:white;
+	
+}
+.container-fluid.remove-padding
+{
+	/*padding: 0px;*/
+	border:2px solid green;
+
+}
+
+.header1
+{
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 3.5vmax;/*width or height which one is max,take this size*/
+	letter-spacing: 0em;
+	text-transform: none;
+	line-height: 1.2em;
+	
+}
+.header1.slim-font
+{
+	font-weight: 100;
+	font-size: 3.5vmax;
+	line-height: 1.5em;
+}
+.para
+{
+	font-weight: 200;
+	font-style: normal;
+	font-size: 1.2vmax;
+	letter-spacing: .01em;
+	text-transform: none;
+	line-height: 1.6em;
+}
+a.button
+{
+	border: 0px solid rgba(255,255,255,0);
+	background-color: #14acd2;
+	padding: 1.3% 5%;
+	border-radius: 5px;
+	color: white;
+	
+}
+a.button:hover
+{
+	text-decoration: none;
+	background-color: #4f2f60
+}
+/*.row.background-img1 {
+  background: url('../image/male_doctor_laughing_with_patient.jpg');
+  background-repeat: no-repeat !important;
+  background-size:100% 100%;
+  
+}*/
+/*
+.background-img1 {
+	width: 100%;
+	height: 100%;
+	background-image: url('../image/male_doctor_laughing_with_patient.jpg');
+	display: block;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	background-size: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+*/
+/*nav strat for heigth*/
+
+.navbar {
+  min-height: 80px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+
+/*End Nav Sizing*/
+
+/*Slide in class for js*/
+
+
+
+/*https://css-tricks.com/slide-in-as-you-scroll-down-boxes/?fbclid=IwAR3SOMhfchypThcJmkc55aC6DxXfl-RvzWFG1OTJUoK6SGNxhK13H-jMnHI*/
+/*
+}
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 1s ease forwards;
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
+
+*/
+/*Floatplane js css*/
+/*
+http://www.menucool.com/ui/slide-in-when-scrolling
+*/
+.slideanim {
+    visibility:hidden;
+    visibility:visible\9;
+}
+.slideanim.slide {                  
+    visibility: visible;                  
+    animation: slide 1s;
+}
+.slideanim::after {
+   
+    content: "";	
+    display: table;
+    clear: both;
+}
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    } 
+}
+
+/*==========================================================================*/
+/*=======================LOcum Tenens =======================================*/
+.box-apply.tenens-left
+{
+
+    background-clip: border-box;
+	width: 158%;
+	height: 60%;
+	padding-top: 0%;
+	margin-left: 2%;
+	padding: 13% 12% 13% 12%;
+	color:white;
+	z-index: 33;
+}
+.col-sm-7.margin-left
+{
+	margin-left: 38.78%;
+}
+.col-sm-4.margin-right
+{
+	margin-left: 9%;
+	margin-top: -42%;
+	z-index: 33;
+}
+.col-sm-4.margin-left-tenens
+{
+	margin-left: 7%
+}
+/*====================================================================*/
+/*==========================Employers=================================*/
+.box-apply.employers_top
+{
+	/*1st image overlap box with semi-red color */
+	background: #FF5A47;
+    background-clip: border-box;
+	width: 167%;
+	height: 65%;
+	margin-top: 26%;
+	margin-left: -67%;
+	padding: 18% 15% 18% 13%;
+	color:white;
+	
+}
+.text-decoration-employers
+{
+	text-decoration: underline;
+	text-decoration-color: #FF5A47
+}
+/*===============================Resources=================================*/
+/*
+.slider {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s ease;
+  -moz-transition: height 0.5s ease;
+  -ms-transition: height 0.5s ease;
+  -o-transition: height 0.5s ease;
+  -webkit-transition: height 0.5s ease;
+}
+
+.slided {
+  height: 100px;
+}*/
+.slider {
+	background: #F3F4F7;
+	padding:1% 2%;
+	display: none;
+
+}
+.expander
+{
+	background:#143567;
+	color:white;
+	cursor: pointer;
+	padding: 1% 2%;
+	width: 100%;
+}
+.expander:hover
+{
+	background: #FF5A47;
+}

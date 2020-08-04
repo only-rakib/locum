@@ -1,0 +1,88 @@
+{% extends 'header_footer.html' %} {% load static %} {% block title %}
+<title></title>
+{% endblock title %} {% block container %}
+
+
+<!--Body grid system start-->
+<div class="container-fluid remove-padding">
+    <!--Form Header start-->
+    <div class="row slideanim" style="margin-top: 10%;color:#143567">
+        <div class="col-sm-4 offset-sm-3">
+            <h1 class="header">
+                Contact Us
+            </h1>
+        </div>
+    </div>
+    <div class="row slideanim" style="padding-top: 2%;padding-bottom: 2%">
+        <div class="col-sm-6 offset-sm-3">
+            <p>Have a question or need assistance? Let us hear from you.
+                <p>
+        </div>
+
+    </div>
+    <!--Form Header end-->
+    <!-- Form Start-->
+    <div class="row slideanim" style="color:#143567">
+        <div class="col-sm-6 offset-sm-3">
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputName">name*</label>
+                        <input type="text" class="form-control" id="inputName">
+                        <small class="form-text text-muted">First Name</small>
+                    </div>
+                    <div class="form-group col-md-6" style="padding-top: 32px">
+                        <input type="text" class="form-control" id="inputLastName">
+                        <small class="form-text text-muted">Last Name</small>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail">email *</label>
+                    <input type="email" class="form-control" id="inputEmail">
+                </div>
+
+                <div class="form-group">
+                    <label for="inputSubject">Subject *</label>
+                    <input type="text" class="form-control" id="inputSubject">
+                </div>
+
+
+                <div class="form-row">
+
+                    <label for="text">Message *</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">
+								</textarea>
+                </div>
+                <div class="form-row" style="margin-top: 2%">
+
+                    <label for="button"><a style="cursor: pointer;background: #FF5A47;padding:15% 40%;color:white">Submit</a></label>
+
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+    <div class="row" style="padding-bottom: 4%;">
+
+    </div>
+    <!--Form end-->
+    <div class="row slideanim" style="padding-bottom: 4%">
+        <div class="col-sm-4 offset-sm-3">
+            Email us: <br>
+            <a href="mailto:info@locumschoice.com">info@locumschoice.com<a><br><br>
+							Phone:<br>
+							833-948-1248<br>
+		</div>
+		<div class="col-sm-6 offset-sm-1" style="max-width: 100%">
+							Office Address:<br><br>
+							Locums Choice<br>
+							925 N. Point Pkwy, Ste. 425<br>
+							Alpharetta, GA  30005<br>
+		</div>
+	</div>
+
+	</div>
+				
+				<!--Body grid system end-->
+{% endblock container %}

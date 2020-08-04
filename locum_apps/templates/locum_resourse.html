@@ -1,0 +1,133 @@
+{% extends 'header_footer.html' %}
+{% load static %}
+{% block title %}
+<title></title>
+{% endblock title %}
+
+{% block container %}
+
+
+		<!--Body grid system start-->
+		<div class="container-fluid remove-padding">
+			<!-- Forms Start-->
+			<div class="row" style="padding-bottom: 6%;"></div>
+			<div class="row" style="padding-bottom: 6%;"></div>
+			<div class="row">
+				<div class="col-sm-3 offset-sm-3">
+					<h1 class="header1" style="color:#143567;">Forms</h1>
+					<br>
+					<p>
+						Forms for our locum tenens providers.
+					</p>
+					
+				</div>
+				<div class="col-sm-4 offset-sm-1">
+					<li>
+						Timesheet
+					</li>
+					<li>
+						Direct Deposit Request
+					</li>
+					<li>
+						Travel Preferences
+					</li>
+					<li>
+						Expense Reporting
+					</li>
+				</div>
+				
+			</div>
+			<!-- Forms end-->
+			<!--FAQ Strat-->
+			<div class="row" style="padding-bottom: 6%;"></div>
+			<div class="row">
+				<div class="col-sm-8 offset-sm-2">
+					<h1 style="color:#143567;">Frequently Asked Questions (FAQ)</h1>
+					<br>
+					<p>
+						If you’re new to locum tenens, you may have questions about your responsibilities and working with an agency. To learn more, we encourage you to talk with other locum tenens and reach out to our recruiters for guidance. Some common questions (and answers) are found below.
+					</p>
+				</div>
+				<div class="col-sm-8 offset-sm-2">
+					
+					<div class="row" style="margin-left: .1%">
+						<div class="expander">
+							What are locum tenens?
+						</div>
+						<div class="slider">
+							<br>
+							If you're new to locum tenens, you may have questions about your responsibilities and working with an agency. To learn more, we encourage you to talk with other locum tenens and reach out to our recruiters for guidance. Some common questions (and answers) are found below.
+							<br>
+						</div>
+						
+					</div>
+					
+					<div class =row>
+						<div style="padding-bottom: 1%"></div>
+					</div>
+					<div class="row" style="margin-left: .1%">
+						<div class="expander">
+							What are locum tenens?
+						</div>
+						<div class="slider">
+							<br>
+							If you're new to locum tenens, you may have questions about your responsibilities and working with an agency. To learn more, we encourage you to talk with other locum tenens and reach out to our recruiters for guidance. Some common questions (and answers) are found below.
+							<br>
+						</div>
+						
+					</div>
+					<div class =row>
+						<div style="padding-bottom: 1%"></div>
+					</div>
+					<div class="row" style="margin-left: .1%">
+						<div class="expander">
+							What are locum tenens?
+						</div>
+						<div class="slider">
+							<br>
+							If you're new to locum tenens, you may have questions about your responsibilities and working with an agency. To learn more, we encourage you to talk with other locum tenens and reach out to our recruiters for guidance. Some common questions (and answers) are found below.
+							<br>
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			<!--FAQ End-->
+			<!--Homepage lower watermark Start-->
+			<div class="row" style="padding-bottom: 3%;background: white;">
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-4" style="z-index: -3">
+					<img src="{% static 'images/locums-choice-watermark.png' %} " class="lower-common-img">
+				</div>
+				<div class="col-sm-7 offset-sm-1 slideanim" style="z-index: 1;margin-top: 6%">
+					<div class="row" >
+						<h1 style="font-weight: 2;font-size: 40px ;text-align: center;color: #143567" >Staffing Request </h1>
+					</div>
+					<div class="row" style="margin-top: 4%">
+						Need coverage or want to learn more about our staffing services for employers? Contact us.
+					</div>
+					<div class="row" style="margin-top: 4%">
+						Get in Touch
+					</div>
+				</div>
+			</div>
+			<!--Homepage lower watermark end-->
+		</div>
+		<!--Body grid system end-->
+		<script>
+			$(function () {
+				$('.expander').click(function ()
+				{
+					$(this).next('div').slideToggle();
+					
+					$(this).parent().siblings().children().next().slideUp();
+					return false;
+				});
+			});
+			
+		</script>
+{% endblock container %}
