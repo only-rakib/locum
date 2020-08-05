@@ -5,7 +5,7 @@
 {% endblock title %}
 {% block container %}
 		<!--Body grid system start-->
-		<div class="container-fluid remove-padding">
+		<div class="container-fluid">
 			<!-- About Upper Image Start-->
 			<div class="row margin slideanim">
 				<div class="col-sm-7 margin-left" style="z-index: -1;text-align: right">
@@ -165,7 +165,7 @@
 				<div class="col-sm-4">
 					<img src="{% static 'images/locums-choice-watermark.png' %}" class="lower-common-img">
 				</div>
-				<div class="col-sm-7 offset-sm-1 slideanim" style="-top: 6%">
+				<div class="col-sm-7 offset-sm-1 slideanim lowerImageSideContent">
 					<div class="row" style="margin-right:0px" >
 						<h1 style="font-weight: 2;font-size: 40px ;text-align: center;color: #143567" >Contact Us </h1>
 					</div>
@@ -173,7 +173,7 @@
 						Let’s get started. If you have workforce needs or want more information about Locums Choice, contact us today.
 					</div>
 					<div class="row" style="margin-top: 4%;margin-right:0px">
-						Get in Touch
+						<a class="buttonPurple text-uppercase" href="{% url 'contact_us' %}">Get in Touch</a>
 					</div>
 				</div>
 			</div>

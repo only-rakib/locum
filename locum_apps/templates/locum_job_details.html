@@ -1,0 +1,185 @@
+{% extends 'header_footer.html' %}	
+{% load static %}
+{% block title %}
+<title></title>
+{% endblock title %}
+{% block container %}
+	
+	
+		<!--Body grid system start-->
+		<div class="container-fluid slideanim" style="padding-left: 4%;padding-right: 4%;border: 2px solid green">
+			<div class="row margin">
+				<a style="color:#FF5A47;cursor:pointer" href="{% url 'job_search' %}">‹ Back to job search</a>
+			</div>
+			<!--Job Title Start-->
+			<div class="row margin" style="background: #F7F7F7">
+				<div class="col-sm-6 offset-sm-1">
+					<div class="row">
+						<h1 class="header1 text-purple">CRNA need in California </h1>
+					</div>
+					<div class="row">
+						<strong>Job Order #014959 </strong>
+					</div>
+					<div class="row">
+						<i class="fas fa-calendar-alt">
+							<h9 class="text-normal">Posted On: July 17, 2020</h9>
+						</i>
+						
+					</div>
+					<div class="row">
+						<i class="fas fa-id-card">
+							<h9 class="text-normal">Position Title: CRNA need in California</h9>
+							</i>
+							
+					</div>
+					<div class="row">
+						<i class="fas fa-map-marker-alt">
+						<h9 class="text-normal">State: California</h9>
+						</i>
+						
+					</div>
+				</div>
+				<div class="col-sm-4 offset-sm-1">
+					<div class="row">
+						Share this job:
+					</div>
+					<div class="row">
+						<i class="fab fa-facebook-square paddingleftIcon"></i>
+						<i class="fab fa-twitter paddingleftIcon"></i>
+						<i class="fas fa-share-alt-square paddingleftIcon"></i>
+						<i class="far fa-comment-alt paddingleftIcon"></i>
+						<i class="fab fa-linkedin paddingleftIcon"></i>
+						<i class="fas fa-envelope paddingleftIcon"></i>
+					</div>
+					<div class="row">
+						<a class="buttonRed text-uppercase" href="#">Apply To This Job </a>
+					</div>
+					
+				</div>
+			</div>
+			<!--Job Title End-->
+			
+			<!--Job Summary start-->
+			<div class="row" style="padding-bottom: 4%">
+				
+			</div>
+			<div class="row">
+				<div class="col-sm-5 offset-sm-1" >
+					<div class="row">
+						<strong>Job Summary:</strong>
+					</div>
+					<div class="row">
+						Locums Choice seeks CRNA for coverage in California.
+					</div>
+					<div class="row" >
+						<ul class="homecircle">
+							<li>Active California license, ACLS, and BLS required</li>
+							<li>Must work 40 hour per week</li>
+							<li>Bread and Butter Cases (No Trauma, Hearts, or Neuro)</li>
+						</ul>
+					</div>
+					<div class="row">
+						<strong>Why Choose Locums Choice</strong>
+					</div>
+					<div class="row" >
+						<ul class="homecircle">
+							<li>Superior true occurrence malpractice coverage (rated A++)</li>
+							<li>In-house credentialing team to assist with all privileging & licensure</li>
+							<li>Complimentary travel and lodging with a team at your service 24/7</li>
+							<li>Competitive pay via direct deposit</li>
+							<li>NALTO Member </li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-5 offset-sm-1">
+					<div class="job">
+						<div class="col-sm-3 job_details_image">
+							<img src="{% static 'images/Josh_Campbell_Principal_Locums_Choice.jpg' %}">
+						</div>
+						<div class="col-sm-8">
+							
+							<div class="row">
+								<p style="font-size: 1vmax">
+									Director of Recruiting Jennifer Biehler is recruiting this position.
+								</p>
+							</div>
+							<div class="row">
+								<i class="fas fa-envelope">
+								<a href="#">email me</a>
+								</i>
+								
+								<i class="fab fa-linkedin">
+								<a href="#">linkedin </a>
+								</i>
+								
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<div class="row margin">
+				<div class="col-sm-10 offset-sm-1">
+					<p>
+						To learn more about this and other positions, contact Jennifer Biehler at 404-649-6087 or jennifer.biehler@locumschoice.com. Locums Choice helps healthcare organizations fill critical staffing gaps and deliver high quality patient care. Providers choose Locums Choice for superior protection with occurrence malpractice insurance and outstanding customer service.
+					</p>
+				</div>
+			</div>
+			<!--Job Summary end-->
+			<!--Form start-->
+			<form style="background: #F7F7F7;padding-top: 4%;padding-bottom: 4%">
+				<div class="form-group row">
+					<div class ="col-sm-4 offset-sm-1" >
+						<div class="form-group">
+							<label for="inputFirstName">first name* </label>
+							<input type="text" class="form-control" id="inputFirstName" placeholder="Your first name">
+						</div>
+						<div class="form-group">
+							<label for="inputLastName">last name* </label>
+							<input type="text" class="form-control" id="inputLastName" placeholder="Your last name">
+						</div>
+						<div class="form-group">
+							<label for="inputEmail">email address* </label>
+							<input type="email" class="form-control" id="inputEmail"
+							placeholder="your@email.com">
+						</div>
+						<div class="form-group">
+							<label for="inputNumber">phone number* </label>
+							<input type="text" class="form-control" id="inputnumber"  placeholder="(111) 222-3333">
+						</div>
+						
+						<div class="form-group">
+							<label for="file">CV/resume upload </label>
+							<small class="form-text text-muted">Microsoft Word (.doc/.docx) or PDF (.pdf) file types </small>
+							<input type="file" class="form-control-file" id="exampleFormControlFile1">
+						</div>
+						
+						
+					</div>
+					<div class ="col-sm-4 offset-sm-1" >
+						<div class="form-group">
+							<label for="inputCV">paste your CV/resume</label>
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Text version of your cv/resume">
+							</textarea>
+						</div>
+						<div class="form-group">
+							<label for="inputCommnet">comments </label>
+							<textarea class="form-control" id="exampleFormControlTextarea2" rows="6" placeholder="Any additional comments">
+							</textarea>
+						</div>
+					</div>
+					
+				</div>
+				<div class="form-group row">
+					<div class="col-sm-4 offset-sm-5">
+						<a class="buttonRed text-uppercase" href="{% url 'locum_apply' %}">Submit</a>
+					</div>
+				</div>
+			</form>
+			<!--Form end-->
+			
+		</div>
+		
+		<!--Body grid system end-->
+{% endblock container %}

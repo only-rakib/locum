@@ -6,7 +6,7 @@
 
 
 <!--Body grid system start-->
-<div class="container-fluid remove-padding slideanim">
+<div class="container-fluid slideanim">
     <!--Form Header start-->
     <div class="row" style="margin-top: 10%;color:#143567">
         <div class="col-sm-4 offset-sm-3">
@@ -24,7 +24,7 @@
     </div>
     <!--Form Header end-->
     <!-- Form Start-->
-    <div class="row" style="color:#143567">
+    <div class="row">
         <div class="col-sm-6 offset-sm-3">
             <form>
                 <div class="form-row">
@@ -63,19 +63,24 @@
                 <div class="form-row">
                     <div class="form-group col-md-3">
                         <label for="inputProfession">Profession *</label>
+                            
                         <select id="inputProfession" class="form-control">
-										<option selected>Physician</option>
-										<option>...</option>
-									</select>
+							{% for i in pro %}
+                                <option value="{{i}}">{{i}}</option>
+
+							{% endfor %}			
+						</select>
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-5">
                         <label for="inputProfession">Specialty *</label>
                         <select id="inputSpecialty" class="form-control">
-										<option selected>Allergy & Immunology</option>
-										<option>...</option>
-									</select>
+						{% for i in spe %}
+                            <option value="{{i}}">{{i}}</option>
+
+						{% endfor %}
+						</select>
                     </div>
                 </div>
                 <div class="form-row">

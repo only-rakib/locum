@@ -8,7 +8,7 @@
 
 
 		<!--Body grid system start-->
-		<div class="container-fluid remove-padding">
+		<div class="container-fluid">
 			<!-- Forms Start-->
 			<div class="row" style="padding-bottom: 6%;"></div>
 			<div class="row" style="padding-bottom: 6%;"></div>
@@ -22,18 +22,26 @@
 					
 				</div>
 				<div class="col-sm-4 offset-sm-1">
-					<li>
-						Timesheet
-					</li>
-					<li>
-						Direct Deposit Request
-					</li>
-					<li>
-						Travel Preferences
-					</li>
-					<li>
-						Expense Reporting
-					</li>
+					<div class="row" style="padding-bottom: 2%;">
+						<i class="fas fa-check">
+							<a href="#"><u>Timesheet</u></a>
+						</i>
+					</div>
+					<div class="row" style="padding-bottom: 2%;">
+						<i class="fas fa-check">
+							<a href="#"><u>Direct Deposit Request</u></a>
+						</i>
+					</div>
+					<div class="row" style="padding-bottom: 2%;">
+						<i class="fas fa-check">
+							<a href="#"><u>Travel Preferences</u></a>
+						</i>
+					</div>
+					<div class="row" style="padding-bottom: 2%;">
+						<i class="fas fa-check">
+							<a href="#"><u>Expense Reporting</u></a>
+						</i>
+					</div>
 				</div>
 				
 			</div>
@@ -80,7 +88,7 @@
 				<div class="col-sm-4" style="z-index: -3">
 					<img src="{% static 'images/locums-choice-watermark.png' %} " class="lower-common-img">
 				</div>
-				<div class="col-sm-7 offset-sm-1 slideanim" style="z-index: 1;margin-top: 6%">
+				<div class="col-sm-7 offset-sm-1 slideanim lowerImageSideContent">
 					<div class="row" >
 						<h1 style="font-weight: 2;font-size: 40px ;text-align: center;color: #143567" >Apply</h1>
 					</div>
@@ -88,7 +96,7 @@
 						Start your personal profile to connect to a recruiter and stay on top of our latest openings. 
 					</div>
 					<div class="row text-uppercase" style="margin-top: 4%">
-						Apply Now
+						<a class="buttonPurple text-uppercase" href="{% url 'locum_apply' %}">Apply Now</a>
 					</div>
 				</div>
 			</div>

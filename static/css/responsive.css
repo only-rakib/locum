@@ -119,6 +119,14 @@
         width: 100%;
         height: 100%;
     }
+    .lowerImageSideContent
+    {
+        position: absolute;
+    }
+    .background-shadow
+    {
+        visibility: hidden;
+    }
     
 }
 

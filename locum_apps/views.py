@@ -8,7 +8,59 @@ def home_view(request):
 
 
 def apply_view(request):
-    return render(request, 'locum_apply.html')
+    profession = [
+        "NP",
+        "PA",
+        "CRNA"
+    ]
+    Specialty = [
+        "Physician",
+        "Anesthesiology",
+        "Cardiology",
+        "Cardiology - Interventional",
+        "Critical Care",
+        "Dermatology",
+        "Emergency Medicine",
+        "Endocrinology",
+        "Family Medicine",
+        "Gastroenterology",
+        "Geriatric Medicine",
+        "Hematology",
+        "Hospital Medicine",
+        "Hospitalist - Pediatrics",
+        "Internal Medicine",
+        "Neurology",
+        "Nephrology",
+        "Oncology",
+        "Ophthalmology",
+        "Pathology",
+        "Physical Medicine & Rehab",
+        "Psychiatry",
+        "Psychiatry - Child & Adolescent",
+        "Pulmonology",
+        "Radiology",
+        "Radiology - Interventional",
+        "Rheumatology",
+        "Surgery - Cardiac",
+        "Surgery - Colon & Rectal",
+        "Surgery - General",
+        "Surgery - Orthopedic",
+        "Surgery - Otolaryngology (ENT)",
+        "Surgery - Neuro",
+        "Surgery - OB/GYN",
+        "Surgery - Pediatrics",
+        "Surgery - Plastic",
+        "Surgery - Thoracic",
+        "Surgery - Transplant",
+        "Surgery - Trauma",
+        "Surgery - Urology",
+        "Surgery - Vascular",
+        "Urgent Care",
+        "Other"
+
+    ]
+    context = {'pro': profession, 'spe': Specialty}
+    return render(request, 'locum_apply.html', context)
 
 
 def contact_us_view(request):
@@ -57,3 +109,7 @@ def tenens_View(request):
 
 def about_View(request):
     return render(request, 'locum_aboutus.html')
+
+
+def job_details_View(request):
+    return render(request, 'locum_job_details.html')
