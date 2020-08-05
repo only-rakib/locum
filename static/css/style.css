@@ -173,11 +173,12 @@ div.side-footer p {
     text-align: center;
 }
 
-div.side-footer p i {
+div.side-footer p a {
     background: red;
     padding: 10px;
     border-radius: 50%;
     color: #a3a3a3;
+    cursor: pointer;
 }
 
 div.side-footer p fab {
