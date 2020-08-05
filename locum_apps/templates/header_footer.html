@@ -68,7 +68,34 @@
     {% block container %} {% endblock container %}
 
     <!-- Navbar start end here -->
-
+    <!--footer start-->
+    <footer class="footer-area m-auto">
+ <div class="row m-auto">
+	<div class="col-md-6 pull contains">
+		<p>
+		<a class="nav-link" href="{% url 'tenens' %}">locum tenens</a>
+		<a class="nav-link" href="{% url 'job_search' %}">Job Search</a>
+		<a class="nav-link" href="{% url 'employers' %}">employers</a>
+		<a class="nav-link" href="{% url 'locum_apply' %}">apply</a>
+		<a class="nav-link" href="{% url 'about' %}">About</a>
+		<a class="nav-link" href="{% url 'contact_us' %}">contact </a>
+		<a class="nav-link" href="{% url 'resourse' %}">resources</a>
+		</p>
+		<span><p>© 2019 Locums Choice</p></span>
+	</div>
+	<div class="col-md-4 middle-footer">
+	 <p><img src="{% static 'images/NALTOMemberlogo.png' %}" alt="Logo2" /></p>
+	</div>
+	<div class="col-md-2 side-footer">
+	 <p>
+	 <i class="fab fa-linkedin-in"></i>
+	 <i class="fab fa-twitter"></i>
+	 
+	 </p>
+	</div>
+ </div>
+</footer>
+    <!--footer end-->
 </body>
 
 </html>

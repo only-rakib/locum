@@ -108,6 +108,7 @@ def tenens_View(request):
 
 
 def about_View(request):
+
     return render(request, 'locum_aboutus.html')
 
 
