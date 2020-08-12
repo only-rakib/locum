@@ -1,175 +1,188 @@
 {% extends 'header_footer.html' %}
 {% load static %}
 {% block title %}
-<title>Locum Tenens Jobs | Locum Tenens Staffing  — Locums Choice</title>
+	<title>Locum Tenens Jobs | Locum Tenens Staffing  — Locums Choice</title>
 {% endblock title %}
 {% block container %}
-
-		<div class="background-shadow"></div>
-		<!--Body grid system start-->
-		<div class="container-fluid ">
-			<!-- Homepage Upper Image Start-->
-			<div class="row margin slideanim">
-				<div class="col-sm-7">
-					<img src="{% static 'images/Young_woman_doctor_caring_for_child_patient.jpeg' %} " class="img-fluid change-height"/>
-				</div>
-				<div class="col-sm-4">
-					<div class="box-apply">
-						<div class="row margin">
+	
+	<!--Body grid system start-->
+	<div class="container-fluid ">
+		<!-- Homepage Upper Image Start-->
+		<div class="row margin slideanim">
+			<div class="col-sm-7 col-md-7 col-lg-7">
+				<img src="{% static 'images/Young_woman_doctor_caring_for_child_patient.jpeg' %} " class="img-fluid change-height"/>
+			</div>
+			<div class="col-sm-4">
+				<div class="box-apply">
+					<div class="row margin">
+						<div class="col">
 							<h1 class="header1">
 							Choose a better way to work
 							</h1>
 						</div>
-						<div class="row margin">
+					</div>
+					<div class="row margin">
+						<div class="col">
 							<p class="para">
 								We think you should have more choice. With Locums Choice, you work when you want and where you want.
 							</p>
-							
-						</div>
-						
-						<div class="row margin">
-							<a href=" {% url 'locum_apply' %}" class="text-uppercase buttonBlue">Apply Now</a>
 						</div>
 						
 					</div>
 					
+					<div class="row">
+						<div class="col">
+							<a href=" {% url 'locum_apply' %}" class="text-uppercase buttonBlue">Apply Now</a>
+						</div>
+					</div>
 					
 				</div>
-			</div>
-			<!-- Homepage Upper Image End-->
-			<!-- Homepage Middle Image Start-->
-			<div class="row slideanim margin">
 				
-				<div class="col-sm-6 margin-left" >
-					<img src="{% static 'images/Man_holding_surf_board_above_head_with_ocean_background.jpeg' %} " class="img-fluid"/>
-				</div>
-				<div class="col-sm-4 margin-left">
-					<div style="padding-top: 12%">
-						<div class="row margin">
+				
+			</div>
+		</div>
+		<!-- Homepage Upper Image End-->
+		<!-- Homepage Middle Image Start-->
+		<div class="row slideanim margin">
+			
+			<div class="col-sm-6 margin-left" >
+				<img src="{% static 'images/Man_holding_surf_board_above_head_with_ocean_background.jpeg' %} " class="img-fluid"/>
+			</div>
+			<div class="col-sm-4 margin-left">
+				<div style="padding-top: 12%">
+					<div class="row margin">
+						<div class="col-lg-12 col-md-12 col-sm-12 ">
 							<h1 class="header1 slim-font" style="color: #143567;">
 							Discover the benefits of Locum Tenens
 							
 							</h1>
 						</div>
-						<div class="row" style="padding-bottom: 1%;">
-							
-							<i class="fas fa-check">
-							<h9 class="text-normal">Paid travel</h9>
-							</i>
-						</div>
-						<div class="row" style="padding-bottom: 1%;">
-							<i class="fas fa-check">
-							<h9 class="text-normal">Personal freedom</h9>
-							</i>
-							
-						</div>
-						<div class="row" style="padding-bottom: 1%;">
-							<i class="fas fa-check">
-							<h9 class="text-normal">New practice settings</h9>
-							</i>
-						</div>
-						<div class="row" style="padding-bottom: 1%;">
-							<i class="fas fa-check">
-							<h9 class="text-normal">Patient care with less paperwork
-							</h9>
-							</i>
-						</div>
-						<div class="row" style="padding-bottom: 1%;">
-							<a class="buttonPurple text-uppercase" href="{% url 'tenens' %}">Learn More</a>
-						</div>
 					</div>
-				</div>
-				
-				
+					<div class="row" style="padding-bottom: 1%;">
 						
-					
+						<i class="fas fa-check">
+						<h9 class="text-normal">Paid travel</h9>
+						</i>
+					</div>
+					<div class="row" style="padding-bottom: 1%;">
+						<i class="fas fa-check">
+						<h9 class="text-normal">Personal freedom</h9>
+						</i>
+						
+					</div>
+					<div class="row" style="padding-bottom: 1%;">
+						<i class="fas fa-check">
+						<h9 class="text-normal">New practice settings</h9>
+						</i>
+					</div>
+					<div class="row" style="padding-bottom: 1%;">
+						<i class="fas fa-check">
+						<h9 class="text-normal">Patient care with less paperwork
+						</h9>
+						</i>
+					</div>
+					<div class="row" style="padding-bottom: 1%;">
+						<a class="buttonPurple text-uppercase" href="{% url 'tenens' %}">Learn More</a>
+					</div>
+				</div>
 			</div>
 			
 			
 			
-			<!-- Homepage Middle Image End-->
-			<!-- Homepage Lower Middle  Start-->
-			<div class="row" style="padding-bottom: 2%;background:white">
-				
-			</div>
-			<div class="row" style="padding-bottom: 2%;background: #F3F4F7">
-				<div>
-					<div class="slideanim">
-						<div class="row" style="padding-top:6% ">
-							<div class="col-sm-12 offset-sm-4">
-								<h1 style="font-weight: 2;font-size: 3vmax ;text-align: center;color: #143567" >Staffing solutions for healthcare employers</h1>
-							</div>
-						</div>
-						<div class="row" style="padding-top:2% ">
-							<div class="col-sm-12 offset-sm-4">
-								<h1 style="font-weight: 2;font-size: 1.1vmax; text-align: center; color:black" >We help healthcare organizations fill critical staffing gaps and deliver high quality patient care.</h1>
-							</div>
-						</div>
-						<div class="row" style="padding-top:2% ">
-							<div class="col-sm-12 offset-sm-4">
-								<h1 style="font-weight: 2;font-size: 1.1vmax;text-align: center;color:black" >If you’re an employer, learn why Locums Choice should be your choice.</h1>
-							</div>
+			
+		</div>
+		
+		
+		
+		<!-- Homepage Middle Image End-->
+		<!-- Homepage Lower Middle  Start-->
+		<div class="row" style="padding-bottom: 2%;background:white">
+			
+		</div>
+		<div class="row rpadding" style="padding-bottom: 2%;background: #F3F4F7">
+			<div class="col">
+				<div class="slideanim">
+					<div class="row" style="padding-top:6% ">
+						<div class="col-sm-10 offset-sm-1">
+							<h1 style="font-weight: 2;font-size: 32px ;text-align: center;color: #143567" >Staffing solutions for healthcare employers</h1>
 						</div>
 					</div>
-					<div class="slideanim">
-						<div class="row" style="padding-top:4% ">
-							<div class="col-sm-12 offset-sm-9">
-								<a class="buttonPurple text-uppercase" href="{% url 'employers' %}">Learn More</a>
-							</div>
+					<div class="row" style="padding-top:2% ">
+						<div class="col-sm-10 offset-sm-1">
+							<h1 style="font-weight: 2;font-size: 14px; text-align: center; color:black" >We help healthcare organizations fill critical staffing gaps and deliver high quality patient care.</h1>
+						</div>
+					</div>
+					<div class="row" style="padding-top:2% ">
+						<div class="col-sm-10 offset-sm-1">
+							<h1 style="font-weight: 2;font-size: 14px;text-align: center;color:black" >If you’re an employer, learn why Locums Choice should be your choice.</h1>
 						</div>
 					</div>
 				</div>
-				
-			</div>
-			<!-- Homepage lower Middle End-->
-			<!--Homepage lower image Start-->
-			<div class="row" style="padding-bottom: 2%">
-				
-			</div>
-			<div class="row slideanim">
-				<div class="col-sm-12" style="z-index: -3; padding:0px">
-					<img src="{% static 'images/male_doctor_laughing_with_patient.jpg' %} " class="img-fluid">
+				<div class="slideanim">
+					<div class="row" style="padding-top:4% ">
+						<div class="col-sm-4 offset-sm-4 col-md-4 offset-md-4 col-lg-4 offset-lg-4 text-center">
+							<a class="buttonPurple text-uppercase" href="{% url 'employers' %}">Learn More</a>
+						</div>
+					</div>
 				</div>
-				<div class="col-sm-5 offset-sm-1" style="z-index: 1;margin-top: -38%">
-					<div class="box-apply-leftImplement">
-						<div class="row margin">
+			</div>
+			
+		</div>
+		<!-- Homepage lower Middle End-->
+		<!--Homepage lower image Start-->
+		<div class="row" style="padding-bottom: 2%">
+			
+		</div>
+		<div class="row slideanim">
+			<div class="col-12 col-lg-12" style="z-index: -3; padding:0px">
+				<img src="{% static 'images/male_doctor_laughing_with_patient.jpg' %} " class="img-fluid">
+			</div>
+			<div class="col-sm-5 offset-sm-1" style="z-index: 1;margin-top: -38%">
+				<div class="box-apply-leftImplement">
+					<div class="row margin">
+						<div class="col">
 							<h1 class="header1">About Locums Choice<h1>
 						</div>
-						<div class="row">
-						<p class="para">
-							We created Locums Choice to give the healthcare market more choices. If you’re a locum tenens provider,
-							we want you to have more jobs, and better benefits. If you’re a client, we believe you’ll choose us for
-							our superior service and experience.
-						 </p>
+					</div>
+					<div class="row">
+						<div class="col">
+							<p class="para" style="font-size: 14px">
+								We created Locums Choice to give the healthcare market more choices. If you’re a locum tenens provider,
+								we want you to have more jobs, and better benefits. If you’re a client, we believe you’ll choose us for
+								our superior service and experience.
+							</p>
 						</div>
-						<div class="row	">
+					</div>
+					<div class="row	">
+						<div class="col">
 							<a class="buttonBlue text-uppercase" href="{% url 'about' %}">Meet the Team</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!--Homepage lower image Start-->
-			<!--Homepage lower watermark Start-->
-			<div class="row" style="padding-bottom: 3%;background: white;">
-			</div>
-			
-			<div class="row">
-				<div class="col-sm-4" style="z-index: -3">
-					<img src="{% static 'images/locums-choice-watermark.png' %} " class="lower-common-img">
-				</div>
-				<div class="col-sm-7 offset-sm-1 slideanim lowerImageSideContent">
-					<div class="row" >
-						<h1 style="font-weight: 2;font-size: 40px ;text-align: center;color: #143567" >Let’s connect</h1>
-					</div>
-					<div class="row" style="margin-top: 4%">
-						If you have questions or want to learn more about partnering with Locums Choice, contact us.
-					</div>
-					<div class="row" style="margin-top: 4%">
-						<a class="buttonPurple text-uppercase" href="{% url 'contact_us' %}">Contact Us</a>
-					</div>
-				</div>
-			</div>
-			<!--Homepage lower watermark end-->
 		</div>
-		<!--Body grid system end-->
-		{% endblock container %}
+		<!--Homepage lower image Start-->
+		<!--Homepage lower watermark Start-->
+		<div class="row" style="padding-bottom: 3%;background: white;">
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-4" style="z-index: -3">
+				<img src="{% static 'images/locums-choice-watermark.png' %} " class="lower-common-img">
+			</div>
+			<div class="col-sm-7 offset-sm-1 slideanim lowerImageSideContent">
+				<div class="row" >
+					<h1 style="font-weight: 2;font-size: 40px ;text-align: center;color: #143567" >Let’s connect</h1>
+				</div>
+				<div class="row" style="margin-top: 4%">
+					If you have questions or want to learn more about partnering with Locums Choice, contact us.
+				</div>
+				<div class="row" style="margin-top: 4%">
+					<a class="buttonPurple text-uppercase" href="{% url 'contact_us' %}">Contact Us</a>
+				</div>
+			</div>
+		</div>
+		<!--Homepage lower watermark end-->
+	</div>
+	<!--Body grid system end-->
+{% endblock container %}

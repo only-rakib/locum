@@ -68,7 +68,7 @@ ul.homecircle{
 .img-fluid.change-height
 {
 	height: 100%;
-	width: 105%;
+	width: 100%;
 	max-width: none;
 	top:2%;
 }
@@ -79,7 +79,7 @@ ul.homecircle{
 	background: #FF5A47;
     background-clip: border-box;
 	width: 167%;
-	height: 70%;
+	height: 30vmax;
 	margin-top: 24%;
 	margin-left: -67%;
 	padding: 18% 15% 18% 13%;
@@ -274,21 +274,23 @@ http://www.menucool.com/ui/slide-in-when-scrolling
 
 /*==========================================================================*/
 /*=======================LOcum Tenens =======================================*/
-.box-apply.tenens-left
+.box-apply-tenens-left
 {
-
+	
+	margin-top: 22%;
     background-clip: border-box;
 	width: 158%;
-	height: 60%;
+	min-height: 65%;
 	padding-top: 0%;
 	margin-left: 2%;
 	padding: 13% 12% 13% 12%;
 	color:white;
 	z-index: 33;
+	background: #FF5A47;
 }
 .col-sm-7.margin-left
 {
-	margin-left: 38.78%;
+	margin-left: 41.78%;
 }
 .col-sm-4.margin-right
 {
@@ -302,16 +304,18 @@ http://www.menucool.com/ui/slide-in-when-scrolling
 }
 /*====================================================================*/
 /*==========================Employers=================================*/
-.box-apply.employers_top
+.box-apply-employers_top
 {
 	/*1st image overlap box with semi-red color */
+	margin-top: 22%;
 	background: #FF5A47;
     background-clip: border-box;
 	width: 167%;
-	height: 65%;
+	min-height: 65%;
 	margin-top: 26%;
 	margin-left: -67%;
 	padding: 18% 15% 18% 13%;
+	background: #FF5A47;
 	color:white;
 	
 }
@@ -433,4 +437,19 @@ font-weight: 300;
 label
 {
 	color:#35517C;
+}
+/*=======================AboutUS======================*/
+.img-margin-card
+{
+	margin-left: 6.5%;
+}
+.healthcare
+{
+	margin-top:6%;
+	padding-left: 7%;
+	padding-right: 2%;
+}
+.Crevalle
+{
+	padding-left: 3%;
 }
